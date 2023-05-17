@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız:</label> <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="surname">Soyad:</label>
+        <input type="text" id="surname" />
+      </div>
+      <br />
+      <div>
+        <label for="intro">Kendini anlat</label>
+        <textarea id="intro" cols="30" rows="5"></textarea>
+      </div>
+      <div>
+        <p>En sevdiğin programlama dili nedir?</p>
+        <input type="radio" id="html" name="language" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="CSS" name="language" />
+        <label for="CSS">CSS</label>
+
+        <input type="radio" id="JAVASC" name="language" />
+        <label for="JAVASC">JS</label>
+      </div>
+
+      <div>
+        <p>En sevdiğin programlama dili nedir?</p>
+        <input type="checkbox" id="html2" name="language2" />
+        <label for="html2">HTML</label>
+
+        <input type="checkbox" id="CSS2" name="language2" />
+        <label for="CSS2">CSS</label>
+
+        <input type="checkbox" id="JAVASC2" name="language2" />
+        <label for="JAVASC2">JAVASC</label>
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select id="cities">
+          <option value="41">Kocaeli</option>
+          <option value="34">Istanbul</option>
+        </select>
+      </div>
+
+      <div>
+          <label for="birthday">Doğum Tarihi:</label>
+          <input type="date" name="birthday" id="birthday">
+      </div>
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
